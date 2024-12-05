@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Reserva de Vuelo</title>
+    <link rel="stylesheet" href="reserva.css">
+</head>
+<body>
+
+<header>
+    <h1>Reserva tu Vuelo</h1>
+</header>
+
+<div class="form-container">
+    <form action="#" method="POST">
+        <h2>Información del Usuario</h2>
+        
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+
+        <label for="fecha-ingreso">Fecha de Ida:</label>
+        <input type="date" id="fecha-ingreso" name="fecha-ingreso" required>
+
+        <label for="fecha-salida">Fecha de Vuelta:</label>
+        <input type="date" id="fecha-salida" name="fecha-salida" required>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required>
+
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" id="ciudad" name="ciudad" required>
+
+        <label for="pais">País:</label>
+        <input type="text" id="pais" name="pais" required>
+
+        <label for="codigo-postal">Código Postal:</label>
+        <input type="text" id="codigo-postal" name="codigo-postal" required>
+        
+        <button type="submit" class="btn-submit">Reservar</button>
+    </form>
+    <script src="JavaScript.js"></script>
+</div>
+
+</body>
+</html>

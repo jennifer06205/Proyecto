@@ -1,0 +1,144 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-color: linear-gradient(to right, #e0f7fa, #f4f4f4);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #4c8baf, #81a7c7);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h3 {
+    margin: 10px 0 20px;
+    font-size: 1.2em;
+}
+
+.hotel-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+    overflow: hidden; 
+    position: relative;
+}
+
+.hotel-imagenes img {
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.hotel-imagenes img:hover {
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.servicios-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.servicios-izquierda, .servicios-derecha {
+    width: 45%; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-left: 145px; 
+}
+
+li {
+    margin: 10px 0;
+    font-size: 1em; 
+}
+
+.hotel-habitacion1 {
+    display: flex; 
+    align-items: flex-start; 
+    border: 2px solid gray; 
+    border-radius: 18px; 
+    padding: 15px; 
+    margin: 100px auto; 
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.1); 
+    background-color: #ffffff; 
+    text-shadow: rgb(0, 0, 0);
+    width: 1100px; 
+    text-align: justify;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+
+}
+.hotel-habitacion1:hover {
+    transform: scale(1.1);
+}
+
+.hotel-habitacion1 .imagen-habitacion {
+    width: 60%; 
+    border-radius: 15px;
+    margin-right: 15px;
+    margin-top: 95px;
+    margin-bottom: 10px;
+
+
+}
+
+.texto-hotel h1 {
+    font-size: 20px;
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+.texto-hotel p {
+    font-size: 14px; 
+    line-height: 1.6;
+}
+
+.boton-hotel {
+    display: inline-block;
+    background-color: #007bbf;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.boton-hotel:hover {
+    background-color: #005f8d;
+}
+
+footer {
+    text-align: center; 
+    padding: 4px; 
+    background: #1d334d; 
+    color: white; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+    margin-top: 20px; 
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}

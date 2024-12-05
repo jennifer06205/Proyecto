@@ -1,0 +1,146 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin: 0; 
+    padding: 0;   
+}
+
+header {
+    color: white;
+    padding: 20px;
+    text-align: center; 
+}
+
+h1 {
+    margin: 0; 
+    font-size: 32px; 
+    color: #000;
+}
+
+
+h3 {
+    margin: 10px 0 0; 
+    font-size: 26px;
+    color: #000; 
+}
+
+main {
+    padding: 20px; 
+}
+
+.intro {
+    background-image: url('Imagenes/blackFriday.jpeg'); 
+    background-size: cover;
+    background-position: center; 
+    color: white;
+    border-radius: 10px; 
+    padding: 20px; 
+    max-width: 920px; 
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.intro h1{
+    color: white
+}
+
+.texto-black{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: left;
+
+}
+
+.hotel-cuadro {
+    display: flex; 
+    align-items: flex-start; 
+    border: 2px solid #007bbf; 
+    border-radius: 18px; 
+    padding: 15px; 
+    margin: 40px auto; 
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s;
+    background-color: #e0f7fa; 
+    text-shadow:rgb(0, 0, 0);
+    width: 1300px; 
+    text-align: justify;
+    
+
+}
+
+.hotel-cuadro h1{
+    text-align: center;
+}
+
+.hotel-cuadro:hover {
+    transform: translateY(-5px);
+}
+
+.texto-hotel {
+    display: flex; 
+    flex-direction: column; 
+    margin-left: 20px; 
+}
+
+.boton-hotel {
+    text-align: center; 
+    display: inline-block; 
+    padding: 19px 22px; 
+    color: rgb(0, 0, 0); 
+    text-decoration: none; 
+    border-radius: 5px; 
+    margin-bottom: 15px; 
+    font-weight: bold; 
+}
+
+.boton-hotel:hover {
+    transform: scale(1.05); 
+}
+
+.hotel-cuadro p {
+    font-size: 16px; 
+    line-height: 1.6; 
+}
+
+.hotel-cuadro h2 {
+    font-size: 28px; 
+    margin: 10px 0; 
+    color: #007BFF; 
+}
+
+.hotel-cuadro img {
+    float: left;
+    margin-right: 10px;
+    margin-top: 25px;
+    max-width: 35%; 
+    height: auto; 
+    border-radius: 12px; 
+}
+
+footer {
+    text-align: center; 
+    padding: 4px; 
+    background: #1d334d; 
+    color: white; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+    margin-top: 20px; 
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .hotel-cuadro {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .texto-hotel {
+        margin-left: 0; 
+        margin-bottom: 10px; 
+    }
+
+    .hotel-cuadro img {
+        max-width: 100%; 
+        margin-right: 10px; 
+    }
+}
